@@ -15,7 +15,7 @@
         <h1 class="mb-0">Found Locator</h1>
         <div class="header-links">
             <a href="index.html" class="btn btn-light">HOME</a>
-            <a href="found.html" class="btn btn-light">Report Lost Item</a>
+            <a href="lost.html" class="btn btn-light">Report Lost Item</a>
         </div>
     </header>
 
@@ -35,6 +35,9 @@
                             <option selected>Select Type</option>
                             <option value="Electronics">Electronics</option>
                             <option value="Clothes">Clothes</option>
+                            <option value="Accessories">Accessories</option>
+                            <option value="Document">Document</option>
+                            <option value="Wallet">Wallet</option>
                             <option value="Keys">Keys</option>
                             <option value="Other">Other</option>
                         </select>
@@ -50,6 +53,10 @@
                     <div class="mb-3">
                         <label for="foundLocation" class="form-label">Location</label>
                         <input type="text" class="form-control" id="foundLocation" placeholder="Enter location" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="foundContact" class="form-label">Contact</label>
+                        <input type="text" class="form-control" id="foundContact" placeholder="Enter Phone Number" required>
                     </div>
                     <button type="submit" class="btn btn-success w-100">Submit Found Item</button>
                 </form>
