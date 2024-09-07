@@ -11,7 +11,8 @@ document.getElementById('lostForm').addEventListener('submit', function (event) 
         itemType: document.getElementById('lostItemType').value,
         itemColor: document.getElementById('lostItemColor').value,
         date: document.getElementById('lostDate').value,
-        location: document.getElementById('lostLocation').value
+        location: document.getElementById('lostLocation').value,
+        conatact: document.getElementById('lostContact').value
     };
 
     // Add the lost item to the lostItems array
@@ -31,7 +32,8 @@ document.getElementById('foundForm').addEventListener('submit', function (event)
         itemType: document.getElementById('foundItemType').value,
         itemColor: document.getElementById('foundItemColor').value,
         date: document.getElementById('foundDate').value,
-        location: document.getElementById('foundLocation').value
+        location: document.getElementById('foundLocation').value,
+        conatact: document.getElementById('foundContact').value
     };
 
     // Add the found item to the foundItems array
